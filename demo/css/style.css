@@ -23,7 +23,11 @@ li{list-style:none}
    ========================================================================== */
 
 /* ---- base ---- */
-
+#ms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 html,body{ 
 	width:100%;
 	height:100%;
@@ -31,10 +35,9 @@ html,body{
 }
 div.absolute {
   position: absolute;
-  top: 300px;
-  right: 550px;
-  width: 200px;
-  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: red;
 }
 div.wrapper {
