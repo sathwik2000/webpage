@@ -68,7 +68,7 @@ div.absolute3 {
   position: absolute;
     opacity: 0.8;
   top: 18%;
-  left: 80%;
+  left: 81%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
