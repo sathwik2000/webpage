@@ -29,8 +29,8 @@ li{list-style:none}
   justify-content: center;
 }
 html,body{
-	width:100%;
-	height:100%;
+	width:150%;
+	height:150%;
 	background:#111;
 }
 div.absolute {
