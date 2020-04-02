@@ -97,7 +97,7 @@ div.absolute1:hover {
     div.absolute2:hover
         {
 
-     opacity: 0.7;
+     opacity: 0.8;
      transition: .9s ease;
      filter: grayscale(50%);
      /* zoom: 150%; */
@@ -107,7 +107,7 @@ div.absolute1:hover {
         div.absolute3:hover
             {
 
-         opacity: 0.7;
+         opacity: 0.8;
          transition: .9s ease;
          /* zoom: 150%; */
          filter: grayscale(50%);
