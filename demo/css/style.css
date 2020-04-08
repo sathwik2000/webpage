@@ -56,23 +56,23 @@ div.absolute1 {
 }
 div.absolute2 {
   position: absolute;
-    opacity: 0.8;
+    opacity: 0.9;
   top: 18%;
   left: 20%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  filter: grayscale(50%);
+  filter: grayscale(20%);
 }
 div.absolute3 {
   position: absolute;
-    opacity: 0.8;
+    opacity: 0.9;
   top: 18%;
   left: 80%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  filter: grayscale(50%);
+  filter: grayscale(20%);
 }
 div.absolute1:hover
     {
