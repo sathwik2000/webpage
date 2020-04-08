@@ -45,13 +45,13 @@ div.absolute {
 }
 div.absolute4{
   position: absolute;
-  opacity: 0.8;
+  opacity: 0.7;
   top: 40%;
   left: 50%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  color: red;
+  /* color: red; */
 }
 div.absolute1 {
   position: absolute;
@@ -88,47 +88,32 @@ div.absolute3 {
 div.absolute1:hover {
   filter: grayscale(0%);
   opacity: 1;
-  /* zoom: 110%; */
-  -webkit-mask-image: linear-gradient(-75deg, rgba(1,1,1,.6) 30%, #000 50%, rgba(1,1,1,.6) 70%);
-  -webkit-mask-size: 200%;
-  animation: shine 3s infinite;
+  zoom: 110%;
 }
 
     div.absolute2:hover
         {
 
-     opacity: 0.7;
+     /* opacity: 0.7; */
      transition: .9s ease;
      /* filter: grayscale(50%); */
-     /* zoom: 150%; */
+     zoom: 150%;
      /* color: white; */
       /* background-color: ; */
         }
         div.absolute3:hover
             {
 
-         opacity: 0.7;
+         /* opacity: 0.7; */
          transition: .9s ease;
-         /* zoom: 150%; */
+         zoom: 150%;
          /* filter: grayscale(50%); */
           /* background-color: #149414;  */
             }
             div.absolute4:hover {
               opacity: 1;
-              -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
-              -webkit-mask-size: 200%;
-              animation: shine 2s infinite;
+
             }
-
-            @-webkit-keyframes shine {
-              from {
-                -webkit-mask-position: 150%;
-              }
-
-              to {
-                -webkit-mask-position: -50%;
-              }
-}
 div.wrapper {
   width: 300px;
   height:300px;
