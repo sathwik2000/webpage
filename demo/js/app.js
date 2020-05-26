@@ -132,7 +132,7 @@ particlesJS('particles-js',
 
 );
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['I Love programming.', 'Love to solve competitive coding questions.', 'I Always nag behind trending technologys and math.', 'I am assiduous to become computer maven.'], 'text', ['#F7F7F7', '#3b5998', '#cc0000','#149414']);
+consoleText(['I Love programming.', 'Love to solve competitive coding questions.', 'I Always nag behind trending technologys and math.', 'I am assiduous to become computer maven.'], 'text', ['#F7F7F7', '#87ceeb', '#fc5f34','#149414']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
