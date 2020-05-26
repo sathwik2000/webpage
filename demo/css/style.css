@@ -28,15 +28,15 @@ body {
   background: #111;
 }
 .hidden {
-  opacity:0;
+  opacity:5;
 }
 .console-container {
  position: absolute;
   font-family:Khula;
   font-size:4em;
   text-align:center;
-  height:300px;
-  width:800px;
+  height:30%;
+  width:80%;
   display:block;
   position:absolute;
   color:#fffff0;
@@ -50,7 +50,7 @@ body {
    display:inline-block;
    position: relative;
   top:-0.14em;
-  left:10px;
+  left:1%;
 }
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900');
 
@@ -81,7 +81,7 @@ button {
   background: none;
   cursor: pointer;
   top: 80%;
-  left: 10%;
+  left: 13%;
   font-family: "Source Code Pro";
   font-weight: 900;
   text-transform: uppercase;
@@ -177,7 +177,7 @@ button2 {
   background: none;
   cursor: pointer;
   top: 80%;
-  left: 75%;
+  left: 73%;
   font-family: "Source Code Pro";
   font-weight: 900;
   text-transform: uppercase;
@@ -242,16 +242,6 @@ div.about{
   color: red;
 }
 
-div.about{
-  position: absolute;
-  top: 55%;
-  left: 20%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  color: red;
-}
-
 div.photo {
   position: absolute;
   opacity: 0.8;
@@ -267,7 +257,7 @@ div.name {
   position: absolute;
     opacity: 0.9;
   top: 15%;
-  left: 15%;
+  left: 20%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
@@ -277,7 +267,7 @@ div.position {
   position: absolute;
     opacity: 0.9;
   top: 15%;
-  left: 82%;
+  left: 80%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
